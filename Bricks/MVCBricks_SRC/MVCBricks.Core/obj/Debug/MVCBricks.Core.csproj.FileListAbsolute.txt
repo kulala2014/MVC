@@ -1,0 +1,4 @@
+D:\Learning\MVC\Bricks\MVCBricks_SRC\MVCBricks.Core\bin\Debug\MVCBricks.Core.dll
+D:\Learning\MVC\Bricks\MVCBricks_SRC\MVCBricks.Core\bin\Debug\MVCBricks.Core.pdb
+D:\Learning\MVC\Bricks\MVCBricks_SRC\MVCBricks.Core\obj\Debug\MVCBricks.Core.dll
+D:\Learning\MVC\Bricks\MVCBricks_SRC\MVCBricks.Core\obj\Debug\MVCBricks.Core.pdb

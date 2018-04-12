@@ -1,0 +1,28 @@
+﻿@model WebGridSampleApplication.Models.Product
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>AddProduct</title>
+</head>
+<body>
+    <div>
+        <label>Id:</label>
+        @Html.Label("Id", Model.Id)
+        <label>Name:</label>
+        @Html.TextBox("Name", Model.Name)
+        <label>Description:</label>
+        @Html.TextBox("Description", Model.Description)
+        <label>Quantity:</label>
+        @Html.TextBox("Quantity", Model.Quantity)
+    </div>
+    <div class="navbar-collapse collapse">
+        <a>@Html.ActionLink("Update", "UpdateProduct", "Inventory",new { id=Model.Id})</a>  
+    </div>
+</body>
+</html>

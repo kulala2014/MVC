@@ -1,0 +1,32 @@
+﻿@model PassingDataSample.Models.Book
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SampleBook</title>
+</head>
+<body>
+    <div class="display-label">
+        ID</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.ID)
+    </div>
+    <div class="display-label">
+        BookName</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.BookName)
+    </div>
+    <div class="display-label">
+        Author</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Author)
+    </div>
+    <div class="display-label">
+        ISBN</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.ISBN)
+    </div>
+</body>
+</html>

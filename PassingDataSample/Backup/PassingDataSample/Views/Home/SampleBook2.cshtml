@@ -1,0 +1,23 @@
+﻿@model PassingDataSample.Models.ViewModels.ShowBookAndMessageViewModel
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SampleBook2</title>
+</head>
+<body>
+    <div>
+        Book Info:
+        @Html.DisplayFor(model => model.Book.BookName)
+        by
+        @Html.DisplayFor(model => model.Book.Author)
+    </div>
+    <div>
+        Message: @Html.DisplayFor(model => model.Message.MessageText)
+        by
+        @Html.DisplayFor(model => model.Message.MessageFrom)
+    </div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+﻿@model WebApplication2.Models.Book
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>SampleBook6</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Book</legend>
+    
+        <div class="display-label">BookName</div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.BookName)
+        </div>
+    
+        <div class="display-label">Author</div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.Author)
+        </div>
+    
+        <div class="display-label">ISBN</div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.ISBN)
+        </div>
+    </fieldset>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id=Model.ID }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</body>
+</html>
